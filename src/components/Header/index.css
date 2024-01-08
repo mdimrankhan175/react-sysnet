@@ -1,0 +1,51 @@
+/* Header.css */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-link {
+    text-decoration: none;
+  }
+  
+  .logo-image {
+    height: 70px; /* Adjust the height as needed */
+    margin-right: 10px;
+    border-radius: 10px;
+    border: solid 1px #ffffff;
+    
+  }
+  
+  .site-title {
+    margin: 0;
+  }
+  
+  .nav-container {
+    text-align: right;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #FFD700; /* Change the color on hover as needed */
+  }
+  

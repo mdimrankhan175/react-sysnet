@@ -1,0 +1,121 @@
+/* index.css */
+
+/* Styles for Download Section */
+.download-software-section-bg {
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    padding: 40px 0; /* Adjust padding as needed */
+    margin: 10px;
+    padding: 10px;
+    
+
+  }
+  
+  .container {
+    max-width: 75%; /* Adjust container max-width as needed */
+    align-items: center;
+}
+  
+  .heading {
+    margin-bottom: 30px;
+  }
+  
+  .download-section-heading {
+    color: #add36c;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .download-section-heading-1 {
+    color: #a7c5dc;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  /* Styles for Download Item */
+  .list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .download-item-card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .download-item-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .download-item-image {
+    width: 50%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .download-card-title {
+    color: #323f4b;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+  }
+  
+  .download-item-link {
+    color: #d0b200;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .download-item-link:hover {
+    color: #a88e00;
+  }
+  
+  .list-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .styled-link {
+    color: #007bff; /* Set your preferred link color */
+    text-decoration: none;
+    background-color: #f0f0f0; /* Set your preferred background color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .styled-link:hover {
+    background-color: #87d133; /* Set your preferred hover background color */
+  }
+
+  .links-background{
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+border-radius: 10px;
+width: 100%;
+  }

@@ -1,0 +1,58 @@
+/* Home.css */
+.home-container {
+    background-image: url('https://res.cloudinary.com/dbelvmspz/image/upload/v1676832191/server_room_mldinh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome-heading {
+    color: #fff;
+    font-size: 2em;
+  }
+  
+  .description {
+    color: #fff;
+    margin: 10px 0;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .updates-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .action-button:hover, .updates-link:hover {
+    opacity: 0.8;
+  }
+  
+  .latest-updates-container {
+    background-color: #dddddd;
+    width:50%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .latest-updates-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }

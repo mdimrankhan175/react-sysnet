@@ -1,0 +1,61 @@
+/* index.css */
+
+/* General styling for site cards */
+.site-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for card images */
+  .site-card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Styling for card titles */
+  .site-card-title {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333333;
+  }
+  
+  /* Styling for card descriptions */
+  .site-card-description {
+    list-style-type: circle ;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  .site-card-description li {
+    margin-bottom: 5px;
+    color: #666666;
+  }
+  
+  /* Container with scrolling for long content */
+  .container-scroll {
+    max-height: 450px;
+    overflow-y: auto;
+  }
+  
+  /* Additional styling for the ownership-container */
+  .ownership-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background: url('https://res.cloudinary.com/dbelvmspz/image/upload/v1677980304/ServerRoomBG_ypltos.jpg') center/cover no-repeat;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  
+}
+  
+  /* Styling for the custom-container */
+  .custom-container {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,56 @@
+/* index.css */
+
+/* Follow Us Icons */
+.follow-us-icon-container {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .i{
+    display: flex;
+  }
+
+  .icon {
+    font-size: 24px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .i-container{
+    background-color: antiquewhite;
+    width: 100px;
+  }
+  /* Footer Section */
+  .c-container {
+    padding: 20px;
+    background-color: #f0f0f0; /* Background color for the container */
+    width: 75%;
+    border-radius: 20px;
+    height: 40%;
+  }
+  
+  .sysnet-follow-us-section {
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  .footer-section-mail-id {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .footer-section-address {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Add more styles as needed */
+  
+  .f-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+        background-image: url("https://res.cloudinary.com/dbelvmspz/image/upload/v1677981107/istockphoto-1169276040-612x612_ekbabj.jpg");
+        background-size: cover;
+        padding: 30px;
+        height: 100vh;
+  }
