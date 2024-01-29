@@ -9,19 +9,25 @@
   }
 
   @media screen and (max-width: 768px) {
-   
+    .header-container {
+      display: none;
+    }
+    .nav-list {
+      justify-content: space-between;
+         }
+
+         
   }
 
 
   .header-container-small{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 250px;
-    height: 92%;
-    position: fixed;
-    top: 60px;
-    
+    justify-content: space-around;
+    background-color: black;  
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
   }
   
   .logo-container {
