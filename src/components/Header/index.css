@@ -7,6 +7,26 @@
     background-color: black;
     color: white;
   }
+
+  @media screen and (max-width: 768px) {
+    .header-container {
+      display: none;
+    }
+  }
+
+
+  .header-container-small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    height: 92%;
+    position: fixed;
+    top: 60px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
   
   .logo-container {
     display: flex;
