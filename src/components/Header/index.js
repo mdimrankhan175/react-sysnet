@@ -1,7 +1,7 @@
 // Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaHome, FaCalendar, FaUser, FaServer, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaTasks, FaCalendar, FaUser, FaServer, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 import './index.css';
 
@@ -35,7 +35,7 @@ const Header = () => {
      
      <nav className="nav-container">
         <ul className="nav-list">
-          <li><Link to="/ownership" className="nav-link"><FaHome  style={{ fontSize: '2em', color: '#3498db' }}  /></Link></li>
+          <li><Link to="/ownership" className="nav-link"><FaTasks  style={{ fontSize: '2em', color: '#e67e22' }}  /></Link></li>
           <li><Link to="/meeting" className="nav-link"><FaCalendar style={{ fontSize: '2em', color: '#2ecc71' }}  /></Link></li>
           <li><Link to="/emp_section" className="nav-link"><FaUser style={{ fontSize: '2em', color: '#e74c3c' }}   /></Link></li>
           <li><Link to="/server" className="nav-link"><FaServer style={{ fontSize: '2em', color: '#9b59b6' }}  /></Link></li>
