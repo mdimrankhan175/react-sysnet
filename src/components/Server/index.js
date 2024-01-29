@@ -15,22 +15,22 @@ const Server = () => {
         <div className="links-background" >
               <h1 className="download-section-heading-1">
       
-      For Important FIRMWARES{' '}
+      Important FIRMWARES{' '}
       <a className="styled-link" href="https://firmwarelinks.ccbp.tech/" target="_blank" rel="noopener noreferrer">
-        click Me
+        click
       </a>{' '}
-       For RFC Reports{' '}
+       RFC Reports{' '}
       <a className="styled-link" href="https://drive.google.com/drive/folders/1qCmctfntcXoHRSCXIxUNkgDzInmO5ZLi?usp=drive_link" target="_blank" rel="noopener noreferrer">
-        click Me
+        click 
       </a>{' '}
-       For Learning{' '}
+       Learning{' '}
       <a
         className="styled-link"
         target="_blank"
         href="https://docs.google.com/document/d/1w00-8DtrGBUm9hiWhvLeSN5bK0wHquH2qoI41fK-1y4/edit?usp=sharing"
         rel="noopener noreferrer"
       >
-        Click Me 
+        Click 
       </a>{' '}
       
     </h1>

@@ -5,19 +5,14 @@
     display: inline-block;
     margin: 0 10px;
   }
-  .i{
-    display: flex;
-  }
+   
 
-  .icon {
-    font-size: 24px;
-    color: #333; /* Adjust color as needed */
+  .i-container{
+    display: flex;
+    justify-content: space-around;
   }
   
-  .i-container{
-    background-color: antiquewhite;
-    width: 100px;
-  }
+  
   /* Footer Section */
   .c-container {
     padding: 20px;
@@ -53,4 +48,9 @@
         background-size: cover;
         padding: 30px;
         height: 100vh;
+  }
+
+  .text-container{
+    text-align: center;
+    margin: 10px;
   }

@@ -6,14 +6,14 @@ const FooterSection = () => {
   return (
     <div className="c-container">
       <div className="row">
-        <div className='i'>
-      <FaTwitter className="icon" />
-      <FaInstagram className="icon" />
-      <FaFacebook className="icon" />
-</div>
-        <div className="col-12 text-center">
+        <div className='i-container'>
+          <FaTwitter style={{ fontSize: '2em', color: '#1da1f2' }}  />
+          <FaInstagram style={{ fontSize: '2em', color: '#c32aa3' }}  />
+          <FaFacebook style={{ fontSize: '2em', color: '#1877f2' }}  />
+        </div>
+        <div className="text-container">
          
-          <h1 className="footer-section-mail-id">services@sysnetglobal.com</h1>
+          <h1 className="footer-section-mail-id">Email: services@sysnetglobal.com</h1>
           <p className="footer-section-address">
             Sysnet Global Technology Pvt. Ltd.
             W-42, Tum Rd, Pocket W, Okhla Phase II, Okhla Industrial Estate, New Delhi, Delhi 110020, India

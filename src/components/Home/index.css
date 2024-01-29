@@ -12,16 +12,26 @@
   
   .home-text-container{
     height: 20%;
-    width: 50%;
+    width: 55%;
     background-color: black;
     border-radius: 10px;
     text-align: center;
+    @media screen and (max-width: 768px) {
+      
+      height: 10%;
+      width: 55%;
+      }      
+    
     
    }
 
   .welcome-heading {   
     color: yellow; 
-    font-size: 30px;       
+    font-size: 30px; 
+    @media screen and (max-width: 768px) {
+      
+      font-size:20px;
+      }      
     
   }
   
@@ -29,6 +39,11 @@
     color: #fff;
     font-size: 20px;      
     margin: 10px 0;
+    @media screen and (max-width: 768px) {
+      
+      font-size:10px;
+      }      
+    
   }
   
   .action-button {
@@ -48,6 +63,7 @@
     color: white;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 5px;
   }
   
   .action-button:hover, .updates-link:hover {
