@@ -6,7 +6,7 @@ const Home = () => {
     return (
       <div className="home-container">
         <div className='home-text-container'>
-        <h2 className="welcome-heading">Welcome to Technology Navigator</h2>
+        <h2 className="welcome-heading">Welcome to Technology Navigator!</h2>
         <p className="description">Explore the latest updates and features.</p>
         </div>
         <div className="latest-updates-container">
