@@ -42,10 +42,12 @@
   
   .logo-image {
     height: 70px; /* Adjust the height as needed */
+    margin-top: 5px;
     margin-right: 10px;
     border-radius: 10px;
     border: solid 1px #ffffff;
     @media screen and (max-width: 768px) {
+      
     height:45px;
     }
 

@@ -39,9 +39,9 @@ const Header = () => {
           <li><Link to="/meeting" className="nav-link"><FaCalendar style={{ fontSize: '1em', color: '#2ecc71' }}  /></Link></li>
           <li><Link to="/emp_section" className="nav-link"><FaUser style={{ fontSize: '1em', color: '#e74c3c' }}   /></Link></li>
           <li><Link to="/server" className="nav-link"><FaServer style={{ fontSize: '1em', color: '#9b59b6' }}  /></Link></li>
-          <li><Link to="/contact_us" className="nav-link"><FaEnvelope style={{ fontSize: '1em', color: '#e67e22' }}  /></Link></li>
           <li><Link to="/follow_us" className="nav-link"><FaPhone style={{ fontSize: '1em',  color: '#3498db' }} /></Link></li>
-        </ul>
+          <li><Link to="/contact_us" className="nav-link"><FaEnvelope style={{ fontSize: '1em', color: '#e67e22' }}  /></Link></li>
+          </ul>
       </nav>
     </header>
     </>
