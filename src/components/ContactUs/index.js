@@ -20,6 +20,24 @@ const contacts = [
     title: 'UX Designer',
     email: 'jane.smith@example.com',
   },
+  {
+    id: 4,
+    name: 'Jane Smith',
+    title: 'UX Designer',
+    email: 'jane.smith@example.com',
+  },
+  {
+    id: 5,
+    name: 'Jane Smith',
+    title: 'UX Designer',
+    email: 'jane.smith@example.com',
+  },
+  {
+    id: 6,
+    name: 'Jane Smith',
+    title: 'UX Designer',
+    email: 'jane.smith@example.com',
+  },
   // ... Repeat similar objects for other contacts
 ];
 

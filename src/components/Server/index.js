@@ -12,25 +12,25 @@ const Server = () => {
           <div className="row">
             <div className="heading links-background text-center mb-4">
               <h1 className="download-section-heading">Download</h1>
-      <div className="links-background" >
+        <div className="links-background" >
               <h1 className="download-section-heading-1">
       
       For Important FIRMWARES{' '}
       <a className="styled-link" href="https://firmwarelinks.ccbp.tech/" target="_blank" rel="noopener noreferrer">
-        click here
+        click Me
       </a>{' '}
        For RFC Reports{' '}
       <a className="styled-link" href="https://drive.google.com/drive/folders/1qCmctfntcXoHRSCXIxUNkgDzInmO5ZLi?usp=drive_link" target="_blank" rel="noopener noreferrer">
-        click here
+        click Me
       </a>{' '}
-       For Learning click{' '}
+       For Learning{' '}
       <a
         className="styled-link"
         target="_blank"
         href="https://docs.google.com/document/d/1w00-8DtrGBUm9hiWhvLeSN5bK0wHquH2qoI41fK-1y4/edit?usp=sharing"
         rel="noopener noreferrer"
       >
-        Click here 
+        Click Me 
       </a>{' '}
       
     </h1>

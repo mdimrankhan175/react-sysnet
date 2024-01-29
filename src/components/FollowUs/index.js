@@ -12,11 +12,7 @@ const FooterSection = () => {
       <FaFacebook className="icon" />
 </div>
         <div className="col-12 text-center">
-          <img
-            src="https://res.cloudinary.com/dbelvmspz/image/upload/v1676831745/coollogo_com-145311121_jrkcxf.jpg"
-            className="sysnet-follow-us-section"
-            alt="Sysnet Global Logo"
-          />
+         
           <h1 className="footer-section-mail-id">services@sysnetglobal.com</h1>
           <p className="footer-section-address">
             Sysnet Global Technology Pvt. Ltd.
