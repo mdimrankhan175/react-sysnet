@@ -8,7 +8,6 @@ const EmployeeSection = () => {
     <div className="main-container">
       <div className="heading">
         <h1 className="heading__title mt-5" >Employee Section </h1>
-        <p className="heading__credits" >Your employment-related services available here.</p>
       </div>
       <div className="cards">
         {/* Card 3 */}

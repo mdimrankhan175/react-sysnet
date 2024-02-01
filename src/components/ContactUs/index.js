@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css'; // Import your CSS file for styling
+import './index.css';
 
 const contacts = [
   {
@@ -7,41 +7,46 @@ const contacts = [
     name: 'Sunil Sheoran',
     title: 'Project Manager',
     email: 'sunil.sheoran@hpe.com',
+    image: 'URL_TO_SUNIL_IMAGE',
   },
   {
     id: 2,
-    name: 'John Doe',
-    title: 'Software Engineer',
-    email: 'john.doe@example.com',
+    name: 'Suresh Revad',
+    title: 'Technical Specialist',
+    email: 'suresh.revad@hpe.com',
+    image: 'URL_TO_SURESH_IMAGE',
   },
   {
     id: 3,
-    name: 'Jane Smith',
-    title: 'UX Designer',
-    email: 'jane.smith@example.com',
+    name: 'Vipul Sunda',
+    title: 'Technical Specialist',
+    email: 'vipul.sunda@hpe.com',
+    image: 'URL_TO_VIPUL_IMAGE',
   },
   {
     id: 4,
-    name: 'Jane Smith',
-    title: 'UX Designer',
-    email: 'jane.smith@example.com',
+    name: 'Sayantani Dhar',
+    title: 'Case Management Lead',
+    email: 'sayantani.dhar@hpe.com',
+    image: 'https://res.cloudinary.com/dbelvmspz/image/upload/v1706775275/sayan_qnq0eq.jpg',
   },
   {
     id: 5,
-    name: 'Jane Smith',
-    title: 'UX Designer',
-    email: 'jane.smith@example.com',
+    name: 'Kashyap Kumar',
+    title: 'Technical Operations',
+    email: 'hpe-ericsson@hpe.com',
+    image: 'https://res.cloudinary.com/dbelvmspz/image/upload/v1706775617/kashyap_yzrkgv.jpg',
   },
   {
     id: 6,
-    name: 'Jane Smith',
-    title: 'UX Designer',
-    email: 'jane.smith@example.com',
+    name: 'Himanshu Sharma',
+    title: 'Technical Operations',
+    email: 'hpe-ericsson@hpe.com',
+    image: 'URL_TO_HIMANSHU_IMAGE',
   },
   // ... Repeat similar objects for other contacts
 ];
 
-// Function to generate a random number between min (inclusive) and max (exclusive)
 const getRandomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min) + min);
 };
@@ -53,7 +58,7 @@ const ContactUs = () => {
         <div key={contact.id} className={`card card-${getRandomNumber(1, 6)}`}>
           <div className="contact-container">
             <img
-              src="https://res.cloudinary.com/dbelvmspz/image/upload/v1677672313/male_contact_pic_fzbonf.png"
+              src={contact.image}
               className="contact-image"
               alt={contact.name}
             />
