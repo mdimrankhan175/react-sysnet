@@ -110,3 +110,26 @@
   background: radial-gradient(#f588d8, #c0a3e5);
 }
 
+/* Basic button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: navy; /* Green color */
+  color: white;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #45a049; /* Darker green color */
+}
+
+/* Active/focus effect */
+button:active, button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
