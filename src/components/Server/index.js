@@ -132,26 +132,7 @@ const Server = () => {
     </div>
 
              </div>
-            
-             <div>
-          <h1>Important Softwares</h1>
-          <div className='software'>
-            
-          {data.map((item) => (
-            <div key={item.id} className='software-item'  >
-              <div >
-                <p className="software-title">{item.description}</p>
-                <a target="_blank" href={item.link} className="download-item-link">
-                  <FaArrowRight />
-                </a>
-              </div>
-            </div>
-            
-          ))}
-        </div>
-        </div>
-
-
+                    
             {/* Example Download Items as an Unordered List */}
             <ul className="row list-unstyled">
               {downloadItems.map((item) => (
@@ -170,7 +151,23 @@ const Server = () => {
           </div>
           
           {/* Software Items */}
-        
+          <div>
+          <h1>Important Softwares</h1>
+          <div className='software'>
+            
+          {data.map((item) => (
+            <div key={item.id} className='software-item'  >
+              <div >
+                <p className="software-title">{item.description}</p>
+                <a target="_blank" href={item.link} className="download-item-link">
+                  <FaArrowRight />
+                </a>
+              </div>
+            </div>
+            
+          ))}
+        </div>
+        </div>
         </div>
       </div>
     );
