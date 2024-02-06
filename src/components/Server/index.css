@@ -129,3 +129,27 @@
     border-radius: 10px;
     width: 100%;
   }
+
+
+  .software{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+  .software-item{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #0f0c29;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+  }
+
+  .software-title{
+    color:#ffffff;
+  }

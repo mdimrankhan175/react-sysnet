@@ -11,8 +11,7 @@ const FooterSection = () => {
           <FaInstagram style={{ fontSize: '2em', color: '#c32aa3' }}  />
           <FaFacebook style={{ fontSize: '2em', color: '#1877f2' }}  />
         </div>
-        <div className="text-container">
-         
+        <div className="text-container">         
           <h1 className="footer-section-mail-id">Email: services@sysnetglobal.com</h1>
           <p className="footer-section-address">
             Sysnet Global Technology Pvt. Ltd.
