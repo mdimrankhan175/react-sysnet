@@ -151,7 +151,7 @@ const Server = () => {
           </div>
           
           {/* Software Items */}
-          <div>
+          <div className='software-container'>
           <h1>Important Softwares</h1>
           <div className='software'>
             

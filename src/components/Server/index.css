@@ -130,6 +130,12 @@
     width: 100%;
   }
 
+  @media screen and (max-width: 768px) {
+    .software-container{
+      display: none;
+    }
+    }
+
 
   .software{
     display: flex;
